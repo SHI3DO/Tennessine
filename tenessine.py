@@ -18,6 +18,7 @@ def research(search):
 
 
 def tenessine(item, amount):
+    lmb.reset()
     itemc = nmb.calc(item)
     search = smb.calc(itemc, amount)
     research(search)
@@ -26,4 +27,4 @@ def tenessine(item, amount):
         print(logk[i])
 
 
-tenessine("ReinforcedIronPlate", 100)
+tenessine("ReinforcedIronPlate", 400)
