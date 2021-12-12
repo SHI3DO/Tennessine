@@ -1,4 +1,3 @@
 def prod(amount):
-    A = ["IronOre", "Smelter", amount, 0]
-    print(A)
+    A = [["IronOre"], "Smelter", [amount], 0]
     return A

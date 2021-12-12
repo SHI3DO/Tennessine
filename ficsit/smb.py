@@ -30,4 +30,5 @@ def calc(itemc, amount):
     elif itemc == 9:
         search = wire.prod(amount)
 
+    print(f"{search} -> {itemc}")
     return search

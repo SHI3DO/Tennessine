@@ -9,10 +9,11 @@ def amb(itemc, amount):
 
 def research(search):
     if search[3] == 1:
-        itemc = nmb.calc(search[0])
-        amb(itemc, search[2])
+        for i in range(0, len(search[0])):
+            itemc = nmb.calc(search[0][i])
+            amb(itemc, search[2][i])
     else:
-        print("done")
+        print("------------------------")
 
 
 def tenessine(item, amount):
@@ -21,4 +22,4 @@ def tenessine(item, amount):
     research(search)
 
 
-tenessine("Screw", 100)
+tenessine("ReinforcedIronPlate", 100)
