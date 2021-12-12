@@ -32,5 +32,5 @@ def calc(itemc, amount):
     elif itemc == 9:
         search = wire.prod(amount)
 
-    print(f"{search} -> {nmb.uncalc(itemc)}")
+    print(f"{search[0]} | {search[2]} + {search[1]} | {search[3]} -> {nmb.uncalc(itemc)}")
     return search

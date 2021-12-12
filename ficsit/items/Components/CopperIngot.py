@@ -1,3 +1,3 @@
 def prod(amount):
-    A = [["CopperOre"], "Smelter", [amount], 0]
+    A = [["CopperOre"], "Smelter", [amount], [amount/30], 0]
     return A
