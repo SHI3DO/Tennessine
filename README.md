@@ -1,5 +1,3 @@
-# Tennessine
-
 <p align="center">
   <a href="https://github.com/SHI3DO/Tennessine"><img src="https://raw.githubusercontent.com/SHI3DO/Tennessine/main/src/logo.png" width="256"></a>
 </p>
