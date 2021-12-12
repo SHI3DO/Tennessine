@@ -24,7 +24,8 @@ def tenessine(item, amount):
     research(search)
     logk = lmb.get()
     for i in range(0, len(logk)):
-        print(logk[i])
+        # print(logk[i])
+        return 0
 
 
 tenessine("ReinforcedIronPlate", 400)
