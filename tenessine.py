@@ -9,7 +9,7 @@ def amb(itemc, amount):
 
 
 def research(search):
-    if search[len(search) - 1] == 1:
+    if search[4] == 1:
         for i in range(0, len(search[0])):
             itemc = nmb.calc(search[0][i])
             amb(itemc, search[2][i])
@@ -23,9 +23,11 @@ def tenessine(item, amount):
     search = smb.calc(itemc, amount)
     research(search)
     logk = lmb.get()
+    aelec = 0
     for i in range(0, len(logk)):
-        # print(logk[i])
-        return 0
+        print(logk[i])
+        aelec += logk[i][5]
+    print(f"필요한 전력 = {aelec}")
 
 
-tenessine("ReinforcedIronPlate", 400)
+tenessine("Wire", 400)

@@ -8,6 +8,10 @@ import ficsit.items.Components.ReinforcedIronPlate as reinforcedironplate
 import ficsit.items.Components.Screw as screw
 import ficsit.items.Components.Wire as wire
 
+import ficsit.buildings.Manufaturers.Constructor as constructor
+import ficsit.buildings.Smelters.Smelter as smelter
+import ficsit.buildings.Manufaturers.Assembler as assembler
+
 from ficsit import nmb
 from ficsit import lmb
 
@@ -33,6 +37,18 @@ def calc(itemc, amount):
     elif itemc == 9:
         search = wire.prod(amount)
 
-    print(f"{search[0]} | {search[2]} + {search[1]} | {search[3]} -> {nmb.uncalc(itemc)}")
+    # print(f"{search[0]} | {search[2]} + {search[1]} | {search[3]} -> {nmb.uncalc(itemc)}")
+    building = search[1]
+    building = nmb.calc(building)
+
+    elec = 0
+    if building == 700:
+        elec = constructor.prod(search[3][0])
+    elif building == 701:
+        elec = smelter.prod(search[3][0])
+    elif building == 702:
+        elec = assembler.prod(search[3][0])
+
+    search.append(elec)
     lmb.log(search)
     return search

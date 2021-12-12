@@ -17,6 +17,12 @@ def calc(item):
         itemc = 8
     elif item == "Wire":
         itemc = 9
+    elif item == "Constructor":
+        itemc = 700
+    elif item == "Smelter":
+        itemc = 701
+    elif item == "Assembler":
+        itemc = 702
     else:
         return "Error"
 
@@ -42,6 +48,8 @@ def uncalc(itemc):
         item = "Screw"
     elif itemc == 9:
         item = "Wire"
+    elif itemc == 700:
+        item = "Constructor"
     else:
         return "Error"
 
