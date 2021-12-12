@@ -21,3 +21,28 @@ def calc(item):
         return "Error"
 
     return itemc
+
+
+def uncalc(itemc):
+    if itemc == 1:
+        item = "Cable"
+    elif itemc == 2:
+        item = "Concrete"
+    elif itemc == 3:
+        item = "CopperIngot"
+    elif itemc == 4:
+        item = "IronIngot"
+    elif itemc == 5:
+        item = "IronPlate"
+    elif itemc == 6:
+        item = "IronRod"
+    elif itemc == 7:
+        item = "ReinforcedIronPlate"
+    elif itemc == 8:
+        item = "Screw"
+    elif itemc == 9:
+        item = "Wire"
+    else:
+        return "Error"
+
+    return item
