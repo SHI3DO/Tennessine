@@ -8,7 +8,7 @@ def amb(itemc, amount):
 
 
 def research(search):
-    if search[3] == 1:
+    if search[len(search)-1] == 1:
         for i in range(0, len(search[0])):
             itemc = nmb.calc(search[0][i])
             amb(itemc, search[2][i])
