@@ -30,4 +30,4 @@ def tenessine(item, amount):
     print(f"필요한 전력 = {aelec}")
 
 
-tenessine("Wire", 400)
+tenessine("ReinforcedIronPlate", 400)
