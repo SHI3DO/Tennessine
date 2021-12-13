@@ -11,23 +11,23 @@
 </div>
 
 # Items
-- Cable ✅
-- Concrete ✅
-- Copper Ingot ✅
-- Iron Ingot ✅
-- Iron Rod ✅
-- Reinforced Iron Plate ✅
-- Screw ✅
-- Wire ✅
-- Copper Sheet ✅
-- Modular Frame ✅
-- Rotor ✅
-- Smart Plating ✅
-- Steel Ingot ✅
-- Steel Beam ✅
+- Cable ✅  
+- Concrete ✅  
+- Copper Ingot ✅  
+- Iron Ingot ✅  
+- Iron Rod ✅  
+- Reinforced Iron Plate ✅  
+- Screw ✅  
+- Wire ✅  
+- Copper Sheet ✅  
+- Modular Frame ✅  
+- Rotor ✅  
+- Smart Plating ✅  
+- Steel Ingot ✅  
+- Steel Beam ✅  
 
 # Buildings
-- Assembler ✅
-- Constructor ✅
-- Foundry ✅
-- Smelter ✅
+- Assembler ✅  
+- Constructor ✅  
+- Foundry ✅  
+- Smelter ✅  
