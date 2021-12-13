@@ -11,10 +11,13 @@ import ficsit.items.Components.CopperSheet as coppersheet
 import ficsit.items.Components.ModularFrame as modularframe
 import ficsit.items.Components.Rotor as rotor
 import ficsit.items.Components.SmartPlating as smartplating
+import ficsit.items.Components.SteelBeam as steelbeam
+import ficsit.items.Components.SteelIngot as steelingot
 
 import ficsit.buildings.Manufaturers.Constructor as constructor
 import ficsit.buildings.Smelters.Smelter as smelter
 import ficsit.buildings.Manufaturers.Assembler as assembler
+import ficsit.buildings.Smelters.Foundry as foundry
 
 from ficsit import nmb
 from ficsit import lmb
@@ -48,6 +51,10 @@ def calc(itemc, amount):
         search = rotor.prod(amount)
     elif itemc == 13:
         search = smartplating.prod(amount)
+    elif itemc == 14:
+        search = steelbeam.prod(amount)
+    elif itemc == 15:
+        search = steelingot.prod(amount)
 
     # print(f"{search[0]} | {search[2]} + {search[1]} | {search[3]} -> {nmb.uncalc(itemc)}")
     building = search[1]
@@ -60,6 +67,8 @@ def calc(itemc, amount):
         elec = smelter.prod(search[3][0])
     elif building == 702:
         elec = assembler.prod(search[3][0])
+    elif building == 703:
+        elec = foundry.prod(search[3][0])
 
     search.append(elec)
     lmb.log(search)

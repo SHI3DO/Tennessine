@@ -23,3 +23,11 @@
 - Modular Frame ✅
 - Rotor ✅
 - Smart Plating ✅
+- Steel Ingot ✅
+- Steel Beam ✅
+
+# Buildings
+- Assembler ✅
+- Constructor ✅
+- Foundry ✅
+- Smelter ✅

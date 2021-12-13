@@ -25,6 +25,10 @@ def calc(item):
         itemc = 12
     elif item == "SmartPlating":
         itemc = 13
+    elif item == "SteelBeam":
+        itemc = 14
+    elif item == "SteelIngot":
+        itemc = 15
 
     elif item == "Constructor":
         itemc = 700
@@ -32,6 +36,8 @@ def calc(item):
         itemc = 701
     elif item == "Assembler":
         itemc = 702
+    elif item == "Foundry":
+        itemc = 703
     else:
         return "Error"
 
