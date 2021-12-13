@@ -18,4 +18,8 @@
 - Iron Rod ✅
 - Reinforced Iron Plate ✅
 - Screw ✅
-- Wire v
+- Wire ✅
+- Copper Sheet ✅
+- Modular Frame ✅
+- Rotor ✅
+- Smart Plating ✅
