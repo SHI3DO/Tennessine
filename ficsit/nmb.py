@@ -17,6 +17,15 @@ def calc(item):
         itemc = 8
     elif item == "Wire":
         itemc = 9
+    elif item == "CopperSheet":
+        itemc = 10
+    elif item == "ModularFrame":
+        itemc = 11
+    elif item == "Rotor":
+        itemc = 12
+    elif item == "SmartPlating":
+        itemc = 13
+
     elif item == "Constructor":
         itemc = 700
     elif item == "Smelter":

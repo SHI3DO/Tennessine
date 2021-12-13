@@ -7,6 +7,10 @@ import ficsit.items.Components.IronRod as ironrod
 import ficsit.items.Components.ReinforcedIronPlate as reinforcedironplate
 import ficsit.items.Components.Screw as screw
 import ficsit.items.Components.Wire as wire
+import ficsit.items.Components.CopperSheet as coppersheet
+import ficsit.items.Components.ModularFrame as modularframe
+import ficsit.items.Components.Rotor as rotor
+import ficsit.items.Components.SmartPlating as smartplating
 
 import ficsit.buildings.Manufaturers.Constructor as constructor
 import ficsit.buildings.Smelters.Smelter as smelter
@@ -36,6 +40,14 @@ def calc(itemc, amount):
         search = screw.prod(amount)
     elif itemc == 9:
         search = wire.prod(amount)
+    elif itemc == 10:
+        search = coppersheet.prod(amount)
+    elif itemc == 11:
+        search = modularframe.prod(amount)
+    elif itemc == 12:
+        search = rotor.prod(amount)
+    elif itemc == 13:
+        search = smartplating.prod(amount)
 
     # print(f"{search[0]} | {search[2]} + {search[1]} | {search[3]} -> {nmb.uncalc(itemc)}")
     building = search[1]
